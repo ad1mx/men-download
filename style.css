@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: #161625;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  color: #fff;
+}
+body a {
+  text-decoration: none;
+  color: #fff;
+}
+body .footer {
+  background: #0e0e17;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+}
+body .footer p {
+  margin: 0 auto;
+}
+body button {
+  background: #5c5ca2;
+  color: #fff;
+  padding: 10px 25px;
+  border-radius: 50px;
+  border: 1px solid transparent;
+  transition: 0.2s all;
+  font-size: 2rem;
+  font-weight: 500;
+  cursor: pointer;
+  filter: drop-shadow(0 0 12px #5c5ca2);
+}
+body button:hover {
+  border-color: #5c5ca2;
+  background: transparent;
+  filter: drop-shadow(0 0 12px #161625);
+}/*# sourceMappingURL=style.css.map */
